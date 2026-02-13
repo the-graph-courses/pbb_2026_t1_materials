@@ -20,7 +20,7 @@ pd.set_option('display.max_columns', None)
 
 # Get the Data
 
-Download the lending club dataset from GitHub here: [https://github.com/the-graph-courses/pbb_2025_q1_materials/blob/main/week_05_workshop/data/loans_full_schema.csv](https://github.com/the-graph-courses/pbb_2025_q1_materials/blob/main/week_05_workshop/data/loans_full_schema.csv) then place it in an appropriate place in your `graph_courses_python` folder.
+The lending club dataset is included in the `data` folder of this workshop. Place the entire workshop folder in your `graph_courses_python` folder.
 
 Below, load the data into a pandas dataframe with the `read_csv()` function from pandas.
 
