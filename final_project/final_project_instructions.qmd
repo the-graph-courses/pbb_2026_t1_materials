@@ -1,6 +1,8 @@
 ---
 title: "Python Basics & Beyond Final Project: Statistics Dashboard with Quarto"
-format: html
+format:
+  html:
+    link-external-newwindow: true
 author: "The GRAPH Courses"
 ---
 
@@ -24,7 +26,7 @@ Session 11 will be dedicated to getting feedback and mentorship on your project.
 
 ### Data Selection
 
-- Choose at least **two indicators** from [Gapminder's data repository](https://gapminder.org/data).
+- Choose at least **two indicators** from [Gapminder's data repository](https://gapminder.org/data){target="_blank" rel="noopener"}.
 - You can subset to a single year or include multiple years in your analysis.
 - If you would rather work with alternative datasets, perhaps those more relevant to your work, send an email to us at trainingteam@thegraphnetwork.org with your proposal. As long as your final dashboard meets the rubric requirements below, it could be a good alternative.
 

@@ -116,7 +116,7 @@ ul.task-list li input[type="checkbox"] {
 <section id="data-selection" class="level3">
 <h3 class="anchored" data-anchor-id="data-selection">Data Selection</h3>
 <ul>
-<li>Choose at least <strong>two indicators</strong> from <a href="https://gapminder.org/data">Gapminder’s data repository</a>.</li>
+<li>Choose at least <strong>two indicators</strong> from <a href="https://gapminder.org/data" target="_blank" rel="noopener">Gapminder’s data repository</a>.</li>
 <li>You can subset to a single year or include multiple years in your analysis.</li>
 <li>If you would rather work with alternative datasets, perhaps those more relevant to your work, send an email to us at trainingteam@thegraphnetwork.org with your proposal. As long as your final dashboard meets the rubric requirements below, it could be a good alternative.</li>
 </ul>
@@ -357,6 +357,11 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
         if (link.dataset.originalHref !== undefined) {
           link.href = link.dataset.originalHref;
         }
+          // target, if specified
+          link.setAttribute("target", "_blank");
+          if (link.getAttribute("rel") === null) {
+            link.setAttribute("rel", "noopener");
+          }
       }
     }
   function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
