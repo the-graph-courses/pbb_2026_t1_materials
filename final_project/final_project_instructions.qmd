@@ -50,9 +50,11 @@ Your dashboard should contain **at least three pages**, with at least the follow
 - You should demonstrate your ability to use a range of pandas methods/functions. (Polars or Ibis are also acceptable.)
 - You should demonstrate your ability to create a range of plotly visualizations. (Matplotlib, plotnine, seaborn, etc. are also acceptable.)
 
-## Presentation & Defense (Apr 6)
+## Presentation & Defense (Apr 6) {#presentation-defense}
 
 On the final day, you will give a **short live presentation** of your dashboard (~5 minutes), followed by **1–2 questions** from the instructor/TA about your code and design choices. The goal is to verify that you understand the code you wrote and can explain the decisions you made.
+
+If you **cannot attend** the live session: **email us** at trainingteam@thegraphnetwork.org with a **brief explanation of why you cannot join** the presentation day. Then record a short video (for example with [Loom](https://www.loom.com){target="_blank" rel="noopener"} or any screen-recording tool) that follows the same structure below—walk through your dashboard and cover the same points you would in person—and **post the video link on the submission page** next to your deployed dashboard link. After we review your video, **we may schedule a short (~10 minute) Zoom** with you if we need clarification about your code or design choices—this serves the same purpose as the in-session Q&A.
 
 We recommend the following structure:
 
@@ -66,7 +68,7 @@ We recommend the following structure:
 
 1. **Upload your Quarto file** (`.qmd`) to the submission page.
 2. **Provide a link** to the deployed dashboard on GitHub Pages.
-3. **Present live** during the Session.
+3. **Present live** during the session, **or**—if you cannot attend—follow the alternate steps in [Presentation & Defense](#presentation-defense) (email, recorded walkthrough on the submission page, possible brief Zoom).
 
 ## Grading Rubric (100 points)
 
@@ -101,7 +103,7 @@ We recommend the following structure:
 
 ### Presentation & Defense (10 points)
 - Clear, well-organized walkthrough of the dashboard
-- Able to explain code logic and design choices when asked
+- Able to explain code logic and design choices when asked (live or in a brief follow-up Zoom, if scheduled)
 - Demonstrates genuine understanding of the tools and techniques used
 
 ### Originality, Creativity, and Insight (10 points)
@@ -126,3 +128,7 @@ We'll aim for about 5 minutes for the presentation plus a couple of minutes for 
 ### What kind of questions will be asked?
 
 The questions are designed to check that you understand your own code. For example: "Why did you choose this type of plot here?" or "How did you merge these two datasets?"
+
+### What if I miss the live presentation?
+
+See [Presentation & Defense](#presentation-defense) for the alternate process (email with a brief reason, recorded walkthrough on the submission page, and possible short follow-up Zoom in place of live Q&A).ate 
